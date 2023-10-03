@@ -30,4 +30,4 @@ query.executemany(sql,val) #to execute many command using single line you have t
 mydb.commit() #to commit the changes sql topic
 
 print(query.rowcount , "'s Row Inserted") # just for being nice and print how many rows inserted into database
-
+        
