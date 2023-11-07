@@ -3,17 +3,13 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="localhost",
     username="root",  # Changed 'username' to 'user'
-    passwd="",    # You might need to provide your MySQL password here
-    database="pydbtest"
+    passwd="",  # You might need to provide your MySQL password here
+    database="pydbtest",
 )
 
 mycursor = mydb.cursor()
 
-val = [
-    ("Akshay","Akshay123"),
-    ("user2","user123"),
-    ("user3","user234")
-       ]    
+val = [("Akshay", "Akshay123"), ("user2", "user123"), ("user3", "user234")]
 
 sql = "SELECT password FROM user WHERE name = 'Akshay'"
 

@@ -3,7 +3,7 @@ x = {}
 print("How Many Players? : ")
 n = int(input())
 for i in range(n):
-    print("Enter Player Name : ")
+    print("Enter " , i+1 , " Player Name : ")
     k = input()
     print("Enter Runs : ")
     v = int(input())

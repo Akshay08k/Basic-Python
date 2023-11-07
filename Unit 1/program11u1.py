@@ -1,3 +1,4 @@
+# Binary search in python
 group1 = [1, 2, 3, 4, 5]
 search = int(input("Enter Element To Search: "))
 found = False  # A flag to track if the element is found
